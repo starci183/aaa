@@ -37,6 +37,24 @@
         "tsConfigPath": "apps/create-wheat-service/tsconfig.app.json"
       }
     },
+    "cron-scheduler": {
+      "type": "application",
+      "root": "apps/cron-scheduler",
+      "entryFile": "main",
+      "sourceRoot": "apps/cron-scheduler/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/cron-scheduler/tsconfig.app.json"
+      }
+    },
+    "cron-worker": {
+      "type": "application",
+      "root": "apps/cron-worker",
+      "entryFile": "main",
+      "sourceRoot": "apps/cron-worker/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/cron-worker/tsconfig.app.json"
+      }
+    },
     "elastic-search": {
       "type": "application",
       "root": "apps/elastic-search",
@@ -116,6 +134,15 @@
       "sourceRoot": "apps/users-subgraph/src",
       "compilerOptions": {
         "tsConfigPath": "apps/users-subgraph/tsconfig.app.json"
+      }
+    },
+    "ws-node": {
+      "type": "application",
+      "root": "apps/ws-node",
+      "entryFile": "main",
+      "sourceRoot": "apps/ws-node/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/ws-node/tsconfig.app.json"
       }
     }
   }
